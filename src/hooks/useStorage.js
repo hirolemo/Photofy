@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import {projectStorage, projectFireStore, timestamp} from '../firebase/config';
+import {projectStorage, projectFirestore, timestamp} from '../firebase/config';
 
 //State to handle and depict animations/effects upon picture upload
 const useStorage = (file) => {
@@ -10,7 +10,7 @@ const useStorage = (file) => {
     useEffect(() => {
         // references to files mapped to names
         const storageRef = projectStorage.ref(file.name);
-        const collectionRef = projectFireStore.collection('images');
+        const collectionRef = projectFirestore.collection('images');
 
         storageRef.put(file).on('state_changed', (snap) => {
             let percentage = (snap.bytesTransferred / snap.totalBytes) * 100;
