@@ -11,7 +11,7 @@ You do not need to perform the local setup below to use the application. This is
 
 2. Install npm here: https://www.npmjs.com/get-npm
 
-3. Open a terminal window or editor w/ terminal and change your working directory to the the Photofy folder
+3. Open a terminal window or editor w/ terminal and change your working directory to the Photofy project folder
 
 4. Run the following command to install all dependancies/frameworks the project uses: npm install
 
