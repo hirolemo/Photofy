@@ -1,4 +1,4 @@
-## `How to Use
+## How to Use
 Visit https://hirolemo-photofy.firebaseapp.com/ to upload pictures and use site. 
 
 ### Tech Stack
