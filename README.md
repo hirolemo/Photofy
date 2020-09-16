@@ -3,7 +3,8 @@ Visit https://hirolemo-photofy.firebaseapp.com/ to upload pictures and use site.
 
 ### Tech Stack
 Photofy is a public image sharing platform built using React and deployed/hosted with Firebase
-HTML, CSS, React.JS, Firebase (Cloud Firestone, Hosting, public auth)
+
+- HTML, CSS, React.JS, Firebase (Cloud Firestone, Hosting, public auth)
 
 ### Local Setup/Run
 You do not need to perform the local setup below to use the application. This is to replicate/modify/extend the project on your own.
